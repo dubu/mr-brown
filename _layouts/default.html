@@ -11,6 +11,9 @@
            {% if post.img %}
               <a href="{{post.url | prepend: site.baseurl}}"><img class="post-image" src={{ "/assets/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}"></a>
            {% endif %}
+            {% if post.webimg %}
+            <a href="{{post.url | prepend: site.baseurl}}"><img class="post-image" src={{ post.webimg }} alt="{{post.title}}"></a>
+            {% endif %}
             <div class="post-content">
               <div class="wrap-content">
                 <header class="header-article">
