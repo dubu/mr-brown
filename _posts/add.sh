@@ -15,5 +15,8 @@ echo $fileName
 echo "--- " > $filename
 echo "title: $1 " >> $filename
 echo "description: $1 " >> $filename
-echo "header: $1 " >> $filename
+echo "date: $(date "+%Y-%m-%d +0900") " >> $filename
+echo "category: life " >> $filename
+echo "img: dubu.png " >> $filename
+echo "author: dubu" >> $filename
 echo "--- " >> $filename
