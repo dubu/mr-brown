@@ -846,7 +846,7 @@ blockquote {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #b2b2b2;
   -webkit-transition: all .3s;
   transition: all .3s;
